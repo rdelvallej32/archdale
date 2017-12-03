@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: rgb(103, 187, 24);
+}
+
+.footer-items {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.copyright {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 15px;
+}

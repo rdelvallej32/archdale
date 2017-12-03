@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 4px;
+  border-bottom: 1px solid rgba(168, 166, 166, 0.911);
+}
+
+.nav-buttons {
+  display: flex;
+  width: 200px;
+}
+
+.nav-buttons.right {
+  flex-direction: row-reverse;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}

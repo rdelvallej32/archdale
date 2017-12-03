@@ -8,9 +8,9 @@ class Footer extends Component {
 
   renderFooterItem(item) {
     return (
-      <div className="footer-item">
+      <div className="footer-item" key={item.id}>
         <img src={item.icon || ''} alt={item.alt || ''} /> 
-        <p key={item.text.id}>{item.text}</p>
+        <p>{item.text}</p>
       </div>
     );
   }
